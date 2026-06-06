@@ -42,6 +42,7 @@ Only 1 terminal required for this project:
 bash
 npm run dev
 # json-server starts on http://localhost:3001
+
 # vite server starts simultaneously
 
 ---
