@@ -56,6 +56,8 @@ npm run dev
 
 ---
 
+## Project Structure
+
 src/
 ├── main.js
 ├── api/
@@ -83,6 +85,7 @@ src/
 │   └── dom.js
 └── styles/
     └── main.css
+    
 ---
 
 ## Role Permissions
