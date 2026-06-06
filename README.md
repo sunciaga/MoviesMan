@@ -56,6 +56,39 @@ npm run dev
 
 ---
 
+## Project Structure
+
+
+src/
+├── main.js
+├── api/
+│   ├── config.js          ← base fetch wrapper
+│   ├── reservations.js    ← CRUD API calls
+│   └── users.js
+├── auth/
+│   ├── auth.js            ← login / logout
+│   └── session.js         ← localStorage session
+├── router/
+│   └── router.js          ← hash router + guards
+├── components/
+│   ├── sidebar.js         ← app shell
+│   ├── reservationModal.js
+│   ├── confirmDialog.js
+│   └── pagination.js
+├── views/
+│   ├── loginView.js
+│   ├── homeView.js
+│   ├── reservations.js
+│   └── reservationDetail.js
+├── utils/
+│   ├── toast.js
+│   ├── validators.js
+│   └── dom.js
+└── styles/
+    └── main.css
+
+---
+
 ## Role Permissions
 
 | Action                  | Admin | User             |
