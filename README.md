@@ -27,10 +27,10 @@ ReservationsMan allows a team to manage workspace reservations through role-base
 
 ## Installation
 
-bash
+```bash
 cd reservations-manager
 npm install
-
+```
 
 ---
 
@@ -39,11 +39,12 @@ npm install
 Only 1 terminal required for this project:
 
 ### Terminal 1 — Dev run
-bash
+
+```bash
 npm run dev
 # json-server starts on http://localhost:3001
-
 # vite server starts simultaneously
+```
 
 ---
 
@@ -59,6 +60,7 @@ npm run dev
 
 ## Project Structure
 
+```text
 src/
 ├── main.js
 ├── api/
@@ -86,7 +88,8 @@ src/
 │   └── dom.js
 └── styles/
     └── main.css
-    
+```
+
 ---
 
 ## Role Permissions
