@@ -1,0 +1,71 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "email": "admin@test.com",
+      "password": "A123456",
+      "role": "admin",
+      "name": "Brian Martínez"
+    },
+    {
+      "id": "2",
+      "email": "user@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Javier Molina"
+    },
+    {
+      "id": "3",
+      "email": "user2@test.com",
+      "password": "A123456",
+      "role": "user",
+      "name": "Abrahan Valle"
+    }
+  ],
+  "reservations": [
+    {
+      "id": "1",
+      "userId": 2,
+      "workspace": "Sala A",
+      "date": "2026-06-10",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "reason": "Sprint Planning",
+      "status": "Cancelled"
+    },
+    {
+      "workspace": "asdasdasd",
+      "reason": "asdasdasa",
+      "status": "Cancelled",
+      "userId": 1,
+      "date": "2026-06-10",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "createdAt": "2026-06-06",
+      "id": "pxLMrqq2Af4"
+    },
+    {
+      "workspace": "Sala 7",
+      "reason": "Meeting to clear things upasd",
+      "status": "Cancelled",
+      "userId": 3,
+      "date": "2026-06-10",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "createdAt": "2026-06-10",
+      "id": "pLJbuobv7OA"
+    },
+    {
+      "workspace": "123",
+      "reason": "123",
+      "status": "Confirmed",
+      "userId": 2,
+      "date": "2026-06-10",
+      "startHour": "08:00",
+      "endHour": "09:00",
+      "createdAt": "2026-06-10",
+      "id": "EhqOJsFj7eU"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
